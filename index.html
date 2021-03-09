@@ -4,34 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>[Social-Media]</title>
-    <link href="/styles/mobile.css" rel="stylesheet" type="text/css">
-    <link href="/styles/desktop.css" rel="stylesheet" media="only screen and (min-width : 720px)">
+    <!-- <link rel="shortcut icon" href=""> -->
+    <link href="styles\mobile.css" rel="stylesheet">
+    <link href="styles\desktop.css" rel="stylesheet" media="only screen and (min-width : 720px)">
 </head>
 <body>
     <div id="main">
         <header class="hpgHeader">
-            <form>
-                <input type="button" id="hpgBtnLog" name="hpgBtnLog">
-                <input type="button" id="hpgBtnReg" name="hpgBtnReg">
-            </form>
-        </header>
-        <div>
-            <div id="hpgShowcase">
-                <h1>Welcome to [Social-Media]</h1>
+            <div class="container">
+                <span class="hpgHeadTitle">[Social-Media]</span>
+                <div id="hpgHBtns">
+                    <button id="hpgBtnLogIn" onclick="document.location='login.html'">Log In</button>
+                    <button id="hpgBtnReg" onclick="document.location='register.html'">Register</button>
+                </div>
             </div>
-            <div id="hpgLogIn">
-                <form>
-                    <h2>Username:</h2>
-                    <input type="text" placeholder="Username" id="hpgUser" name="hpgUser">
-                    <br>
-                    <h2>Password:</h2>
-                    <input type="password" placeholder="Password" id="hpgPass" name="hpgPass">
-                </form>
+        </header>
+        <div id="hpgShowCon">
+            <div id="hpgShowcase">
+                
+                    <h1>Welcome to [Social-Media]</h1>
+                
+            </div>
+            <div id="hpgButtons">
+                    <span id="hpgJoin">Join [Social-Media] today!</span>
+                    <button id="hpgLogIn" onclick="document.location='login.html'">Log In</button>
+                    <button id="hpgReg" onclick="document.location='register.html'">Register</button>
+                
             </div>
         </div>
-        <footer class="hpgFooter">
-
-        </footer>
+        <!-- <footer class="hpgFooter">
+            <div id="container">
+            </div>
+        </footer> -->
     </div>
 </body>
 </html>
