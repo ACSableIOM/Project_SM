@@ -36,21 +36,15 @@ body{
     color: #ffffff;
     padding: 15px 32px;
     margin: 0 20px 10px 20px;
-
+    display: none;
 }
-#hpgBtnLogIn:hover{
-    opacity: 70%;
-}
-
 #hpgBtnReg{
     background-color: #FFFFFF;
     border: #4caf50 2px solid;
     color: #4caf50;
     padding: 15px 32px;
     margin: 0 20px 10px 20px;
-}
-#hpgBtnReg:hover{
-    opacity: 70%;
+    display: none;
 }
 
 .hpgHeadTitle{
@@ -65,14 +59,16 @@ body{
 /* Homepage Showcase */
 #hpgShowCon{
     min-height: 800px;
+    background: url('../images/show_wel01.jpg') no-repeat;
+    background-size: 100% 100%;
     display: flex;
 }
 #hpgShowcase{
     background: url('../images/show_wel01.jpg') no-repeat;
     background-size: 100% 100%;
-
     width: 50%;
     height: 800px;
+    display: none;
 }
 #hpgShowcase h1{
     margin: 400px 0 250px 0;
@@ -103,20 +99,23 @@ body{
     width: 200px;
     margin: 20px;
 }
-#hpgLogIn:hover{
-    opacity: 70%;
-    background-color: #bdbdbd;
-}
-#hpgReg:hover{
-    opacity: 70%;
-    background-color: #bdbdbd;
-}
+
 #hpgJoin{
     font-size: 25px;
     font-weight: bold;
+    color: #FFFFFF;
 }
 
-/* Homepage Footer */
-/* .hpgFooter{
-    min-height: 100px;
-} */
+/* Homepage Footer  */
+.hpgFooter{
+    min-height: 70px;
+    text-align: center;
+}
+.ftrLnks{
+    margin: auto;
+    vertical-align: middle;
+    padding: 25px;
+}
+.ftrLnks a{
+    color: #000000;
+}

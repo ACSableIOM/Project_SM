@@ -1,0 +1,59 @@
+/* Homepage Header Buttons */
+#hpgBtnLogIn{
+    background-color: #4caf50;
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    margin: 0 20px 10px 20px;
+    display: block;
+}
+#hpgBtnLogIn:hover{
+    opacity: 70%;
+}
+
+#hpgBtnReg{
+    background-color: #FFFFFF;
+    border: #4caf50 2px solid;
+    color: #4caf50;
+    padding: 15px 32px;
+    margin: 0 20px 10px 20px;
+    display: block;
+}
+#hpgBtnReg:hover{
+    opacity: 70%;
+}
+
+/* Homepage Showcase */
+#hpgShowCon{
+    min-height: 800px;
+    display: flex;
+    background-image: none;
+}
+#hpgShowcase{
+    background: url('../images/show_wel01.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 50%;
+    height: 800px;
+    display: block;
+}
+#hpgShowcase h1{
+    margin: 400px 0 250px 0;
+    vertical-align: middle;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* Showcase Buttons and Title */
+#hpgLogIn:hover{
+    opacity: 70%;
+    background-color: #bdbdbd;
+}
+#hpgReg:hover{
+    opacity: 70%;
+    background-color: #bdbdbd;
+}
+#hpgJoin{
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+}
+/* Homepage Footer */
