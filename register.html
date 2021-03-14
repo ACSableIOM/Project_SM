@@ -33,7 +33,13 @@
                 <div class="textbox">
                     <input type="password" placeholder="Password">
                 </div>
-                <input class="btn" type="Button" value="Register" onclick="document.location='login.html'">
+                <input class="btn" type="Button" value="Register" onclick="myFunction()">
+                <script>
+                    function myFunction() {
+                      alert("Account Successfully Created");
+                      window.location.href = "login.html";
+                    }
+                    </script>
 
                 <p class="existingaccount">Already Have An Account? <a href="login.html" class="signin">Sign In</a></p>
 
