@@ -3,6 +3,6 @@ body {
     font-size: 16px !important;
 }
 
-body > *, span, button, a {
+body > *, span, button, a, input {
     font-size: 150% !important;
 }

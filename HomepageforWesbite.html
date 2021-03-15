@@ -42,6 +42,7 @@ li a:hover:not(.active) {
   color: white;
 }
 </style>
+<script src="scripts/accessibilityLoader.js"></script>
 </head>
 <body>
 
@@ -50,6 +51,8 @@ li a:hover:not(.active) {
   <li><a href="">Friends</a></li>
   <li><a href="">MarketPlace</a></li>
   <li><a href="">LogOut</a></li>
+  <br>
+  <li> <a href="dummy.html" onclick="event.preventDefault();toggleAccessibilityType('enlargeText')">Enlarge text</a></li>
 </ul>
 
 <div style="margin-left:25%;padding:1px 16px;height:1000px;">
@@ -57,7 +60,7 @@ li a:hover:not(.active) {
     <h1><u>SocialMedia</u></h1>
 
 
-
+   
 </div>
 
 </body>

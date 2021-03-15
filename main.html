@@ -9,6 +9,7 @@
     <link href="styles\mobile.css" rel="stylesheet">
     <link href="styles\desktop.css" rel="stylesheet" media="only screen and (min-width : 720px)">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts/accessibilityLoader.js"></script>
 </head>
 <body>
     <div id="main">
@@ -28,6 +29,8 @@
                 <a href="groups.html">Groups</a>
                 <a href="settings.html">Settings</a>
                 <a href="index.html">Log Out <i class="fa">&#xf08b;</i></a>
+                <br>
+                <a href="dummy.html" onclick="event.preventDefault();toggleAccessibilityType('enlargeText')">Enlarge text</a>
             </div>
         </section>
         <section class="mainContent">
@@ -99,7 +102,7 @@
             </div>
         </section>
         <footer>
-
+            
         </footer>
     </div>
     <script src="scripts\main.js"></script>
