@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Médias sociaux]</title>
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link href="styles\mobile.css" rel="stylesheet">
+    <link href="styles\desktop.css" rel="stylesheet" media="only screen and (min-width : 720px)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts/accessibilityLoader.js"></script>
+</head>
+<body>
+    <div id="main">
+        <header class="hpgHeader">
+            <div class="container">
+                <span class="hpgHeadTitle">[Médias sociaux]</span>
+                <div id="hpgHBtns">
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                </div>
+            </div>
+        </header>
+        <section id="sideNav">
+            <div class="sidenav" id="mainNav">
+                <a href="javascript:void(0)" class="closebtn()" onclick="closeNav()">&times;</a>
+                <a href="main.html">Accueil</a>
+                <a href="freinds.html">Amis</a>
+                <a href="groups.html">Groupes</a>
+                <a href="settings.html">Réglages</a>
+                <a href="index.html">Se déconnecter <i class="fa">&#xf08b;</i></a>
+                <br>
+                <a href="dummy.html" id="enlarge-button" onclick="event.preventDefault();toggleAccessibilityType('enlargeText')">agrandir le texte</a>
+                <div class="lang-menu">
+                    <div id="activeLangfr">
+                        Français
+                    </div>
+                    <ul>
+                        <li><a href="main_en.html" class="en">Anglais</a> </li>
+                        <li><a href="main_de.html" class="de">Allemand</a> </li>
+                        <li><a href="main_fr.html" class="fr">Français</a> </li>
+                        <li><a href="main_es.html" class="es">Espagnol</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="mainContent">
+            <div id="container">
+                <div id="post">
+                    <img src="images/pp.png" id="pp" alt="Profile Picture">
+                    <h3>Fred Blogs</h3>
+                    <!-- https://www.csun.edu/sites/default/files/Auerbach-Handout-Paragraph-Writing-Examples.pdf -->
+                    <p>Le Canada est l'un des meilleurs pays au monde où vivre. Premièrement, le Canada a une
+                        excellent système de soins de santé. Tous les Canadiens ont accès à des services médicaux à un prix raisonnable
+                        le prix. Deuxièmement, le Canada a un niveau d'éducation élevé. Les étudiants sont enseignés par des
+                        enseignants et sont encouragés à poursuivre leurs études à l’université. Enfin, les villes canadiennes sont propres
+                        et géré efficacement. Les villes canadiennes ont de nombreux parcs et beaucoup d'espace pour les gens. Comme
+                        par conséquent, le Canada est un endroit où il fait bon vivre.</p>
+                    <div class="pstInteract">
+                        <img src="images/like.png" alt="like">
+                        <span id="mainCount">12</span>
+                        <img src="images/comment.png" alt="comment">
+                        <span id="mainCount">4</span>
+                        <img src="images/share.png" alt="share">
+                        <span id="mainCount">1</span>
+                        <span id="dat">08/03/2021 - 15:48</span>
+                    </div>
+                </div>
+                <div id="post">
+                    <img src="images/pp.png" id="pp" alt="Profile Picture">
+                    <h3>Jessica Smith</h3>
+                    <p>J'ai pris cette photo lors de ma promenade avec les chiens et j'ai pensé que tout le monde devrait la voir! Bon mardi!</p>
+                    <img src="images/post_01.jpg" alt="Jessica Smith's Photo" class="attImg">
+                    <div class="pstInteract">
+                        <img src="images/like.png" alt="like">
+                        <span id="mainCount">5</span>
+                        <img src="images/comment.png" alt="comment">
+                        <span id="mainCount">1</span>
+                        <img src="images/share.png" alt="share">
+                        <span id="mainCount">0</span>
+                        <span id="dat">08/03/2021 - 10:15</span>
+                    </div>
+                </div>
+                <div id="post">
+                    <img src="images/pp.png" id="pp" alt="Profile Picture">
+                    <h3>David Looney</h3>
+                    <p>J'ai trouvé un petit trésor lors de mes déplacements pour mon anniversaire! &#x1F389;&#x1F389;</p>
+                    <img src="images/post_02.jpg" alt="David Looney's Photo" class="attImg">                    
+                    <div class="pstInteract">
+                        <img src="images/like.png" alt="like">
+                        <span id="mainCount">54</span>
+                        <img src="images/comment.png" alt="comment">
+                        <span id="mainCount">18</span>
+                        <img src="images/share.png" alt="share">
+                        <span id="mainCount">4</span>
+                        <span id="dat">07/03/2021 - 20:58</span>
+                    </div>
+                </div>
+                <div id="post">
+                    <img src="images/pp.png" id="pp" alt="Profile Picture">
+                    <h3>Rosmary Williams</h3>
+                    <p>Été une journée bien remplie au bureau! Au plaisir de rentrer à la maison!</p>
+                    <img src="images/post_03.jpg" alt="Rosemary Williams' Photo" class="attImg">                    
+                    <div class="pstInteract">
+                        <img src="images/like.png" alt="like">
+                        <span id="mainCount">32</span>
+                        <img src="images/comment.png" alt="comment">
+                        <span id="mainCount">31</span>
+                        <img src="images/share.png" alt="share">
+                        <span id="mainCount">0</span>
+                        <span id="dat">07/03/2021 - 14:34</span>
+                    </div>
+                </div>
+            </div>
+            <!-- popout image code from https://www.w3schools.com/howto/howto_css_modal_images.asp -->
+            <div id="mainPopout" class="popouts">
+                <span class="closeBtn">&times;</span>
+                <img class="popoutImg" id="modImg">
+            </div>
+        </section>
+        <footer>
+            
+        </footer>
+    </div>
+    <script src="scripts\main.js"></script>
+</body>
+</html>

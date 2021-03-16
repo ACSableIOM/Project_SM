@@ -24,13 +24,24 @@
         <section id="sideNav">
             <div class="sidenav" id="mainNav">
                 <a href="javascript:void(0)" class="closebtn()" onclick="closeNav()">&times;</a>
-                <a href="main.html">Home</a>
+                <a href="main_en.html">Home</a>
                 <a href="freinds.html">Friends</a>
                 <a href="groups.html">Groups</a>
                 <a href="settings.html">Settings</a>
                 <a href="index.html">Log Out <i class="fa">&#xf08b;</i></a>
                 <br>
                 <a href="dummy.html" id="enlarge-button" onclick="event.preventDefault();toggleAccessibilityType('enlargeText')">Enlarge text</a>
+                <div class="lang-menu">
+                    <div id="activeLang">
+                        English
+                    </div>
+                    <ul>
+                        <li><a href="main_en.html" class="en">English</a> </li>
+                        <li><a href="main_de.html" class="de">German</a> </li>
+                        <li><a href="main_fr.html" class="fr">French</a> </li>
+                        <li><a href="main_es.html" class="es">Spanish</a> </li>
+                    </ul>
+                </div>
             </div>
         </section>
         <section class="mainContent">
@@ -38,7 +49,13 @@
                 <div id="post">
                     <img src="images/pp.png" id="pp" alt="Profile Picture">
                     <h3>Fred Blogs</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <!-- https://www.csun.edu/sites/default/files/Auerbach-Handout-Paragraph-Writing-Examples.pdf -->
+                    <p>Canada is one of the best countries in the world to live in. First, Canada has an
+                        excellent health care system. All Canadians have access to medical services at a reasonable
+                        price. Second, Canada has a high standard of education. Students are taught by well‐trained
+                        teachers and are encouraged to continue studying at university. Finally, Canada's cities are clean
+                        and efficiently managed. Canadian cities have many parks and lots of space for people to live. As
+                        a result, Canada is a desirable place to live.</p>
                     <div class="pstInteract">
                         <img src="images/like.png" alt="like">
                         <span id="mainCount">12</span>

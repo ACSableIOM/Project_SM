@@ -267,3 +267,124 @@ body{
     color: #f4f4f4;
     cursor: pointer;
 }
+
+/* Language Menu */
+.lang-menu{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#activeLang{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    width: 110px;
+}
+#activeLang:before{
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url(https://www.countryflags.io/gb/shiny/32.png);
+}
+
+.lang-menu ul{
+    margin: 0;
+    padding: 0px;
+    background-color: #336d34;
+    border: none;
+    box-shadow: 0px 1px 10px #000000ea;
+    border-radius: 5px;
+    font-size: 15px;
+    display: none;
+}
+
+.lang-menu ul li{
+    list-style: none;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lang-menu ul li a{
+    display: block;
+    padding: 10px 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.lang-menu ul li a:before{
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.de:before{
+    background-image: url(https://www.countryflags.io/de/shiny/32.png);  
+}
+
+.en:before{
+    background-image: url(https://www.countryflags.io/gb/shiny/32.png);
+}
+
+.fr:before{
+    background-image: url(https://www.countryflags.io/fr/shiny/32.png);
+}
+
+.es:before{
+    background-image: url(https://www.countryflags.io/es/shiny/32.png);
+}
+
+.lang-menu:hover ul{
+    display: block;
+}
+
+#activeLangde{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    width: 125px;
+}
+#activeLangde:before{
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url(https://www.countryflags.io/de/shiny/32.png);
+}
+
+#activeLangfr{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    width: 125px;
+}
+#activeLangfr:before{
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url(https://www.countryflags.io/fr/shiny/32.png);
+}
+
+#activeLanges{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    width: 125px;
+}
+#activeLanges:before{
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url(https://www.countryflags.io/es/shiny/32.png);
+}
