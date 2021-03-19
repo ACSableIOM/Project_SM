@@ -1,0 +1,128 @@
+/* Homepage Header Buttons */
+#hpgBtnLogIn{
+    background-color: #4caf50;
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    margin: 0 20px 10px 20px;
+    display: block;
+}
+#hpgBtnLogIn:hover{
+    opacity: 70%;
+}
+
+#hpgBtnReg{
+    background-color: #FFFFFF;
+    border: #4caf50 2px solid;
+    color: #4caf50;
+    padding: 15px 32px;
+    margin: 0 20px 10px 20px;
+    display: block;
+}
+#hpgBtnReg:hover{
+    opacity: 70%;
+}
+
+/* Homepage Showcase */
+#hpgShowCon{
+    min-height: 800px;
+    display: flex;
+    background-image: none;
+}
+#hpgShowcase{
+    background: url('../images/show_wel01.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 50%;
+    height: 800px;
+    display: block;
+}
+#hpgShowcase h1{
+    margin: 400px 0 250px 0;
+    vertical-align: middle;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* Showcase Buttons and Title */
+#hpgLogIn:hover{
+    opacity: 70%;
+    background-color: #bdbdbd;
+}
+#hpgReg:hover{
+    opacity: 70%;
+    background-color: #bdbdbd;
+}
+#hpgJoin{
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+}
+/* Post Layout */
+
+
+h1 {
+    font-size: 34px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.creategroup {
+    height: 900px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.171);
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(49, 49, 49);
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.creategroup p {
+    font-weight: bold;
+}
+
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 14px;
+    margin: 2px 0;
+    margin-top: -10px;
+}
+
+.textbox input {
+    width: 400px;
+    overflow: hidden;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 2px 0;
+    background-color: white;
+}
+
+.description {
+    width: 408px;
+    height: 165px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.creategrp {
+    margin-left: 70px;
+    margin-top: 50px;
+    height: 50px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.322);
+    border: black 2px solid;
+    color: white;
+    font-size: 16px;
+}
+
+.loggedin:hover {
+    font-weight: bold;
+}
+
+.creategrp:hover {
+    background-color: rgba(0, 0, 0, 0.445);
+    font-weight: bold;
+}

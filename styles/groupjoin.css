@@ -1,0 +1,117 @@
+/* Homepage Header Buttons */
+#hpgBtnLogIn{
+    background-color: #4caf50;
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    margin: 0 20px 10px 20px;
+    display: block;
+}
+#hpgBtnLogIn:hover{
+    opacity: 70%;
+}
+
+#hpgBtnReg{
+    background-color: #FFFFFF;
+    border: #4caf50 2px solid;
+    color: #4caf50;
+    padding: 15px 32px;
+    margin: 0 20px 10px 20px;
+    display: block;
+}
+#hpgBtnReg:hover{
+    opacity: 70%;
+}
+
+/* Homepage Showcase */
+#hpgShowCon{
+    min-height: 800px;
+    display: flex;
+    background-image: none;
+}
+#hpgShowcase{
+    background: url('../images/show_wel01.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 50%;
+    height: 800px;
+    display: block;
+}
+#hpgShowcase h1{
+    margin: 400px 0 250px 0;
+    vertical-align: middle;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* Showcase Buttons and Title */
+#hpgLogIn:hover{
+    opacity: 70%;
+    background-color: #bdbdbd;
+}
+#hpgReg:hover{
+    opacity: 70%;
+    background-color: #bdbdbd;
+}
+#hpgJoin{
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+}
+/* Post Layout */
+
+.createbtn {
+    width: 400px;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 40%;
+    background: #35424a;
+    border: #4caf50 2px solid;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.createbtn:hover {
+    background-color: #4e5e66;
+}
+
+.joinbtn {
+    width: 400px;
+    height: 50px;
+    margin-top: 200px;
+    margin-left: 40%;
+    background: #35424a;
+    border: #4caf50 2px solid;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.joinbtn:hover {
+    background-color: #4e5e66;
+}
+
+.groups {
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 43%;
+    border: black 2px solid;
+    color: black;
+    font-size: 18px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    background-image: url(../images/groups.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+}
+
+.plus {
+    height: 30px;
+    width: 50px;
+    font-size: 18px;
+}
+
+.plus:hover {
+    font-weight: bold;
+    background-color: rgba(201, 201, 201, 0.493);
+}
