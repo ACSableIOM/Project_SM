@@ -36,14 +36,23 @@
 
     margin-bottom: 1%;
     height: 100px;
-    flex-grow: 1;
+
+    flex: 1 1 0px;
+
+    display: flex;
+
+    flex-direction: row;
 }
 
 .friend + .friend {
     margin-left: 1%;
 }
 
-.friend-break {
+.friend button {
+    float: right;
+}
+
+.flex-break {
     flex-basis: 100%;
     height: 0;
 }
@@ -51,4 +60,17 @@
 #friends-recommended > .friend {
     margin-left: 15px;
     margin-right: 15px;
+}
+
+.profile-picture {
+    margin: 15px;
+    height: 100%;
+}
+
+.profile-pic-container {
+    height: 75%;
+}
+
+.profile-details-container {
+    flex-grow: 1;
 }

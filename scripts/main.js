@@ -32,3 +32,13 @@ var clos = document.getElementsByClassName("closeBtn")[0];
 clos.onclick = function(){
     popout.style.display= "none";
 }
+
+function onAddFriend()
+{
+    alert("Successfully added friend");
+}
+
+function onRemoveFriend()
+{
+    alert("Successfully removed friend");
+}
