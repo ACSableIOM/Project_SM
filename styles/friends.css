@@ -1,0 +1,54 @@
+.flex-container {
+    display: flex;
+}
+
+#friends-current, #friends-recommended {
+    margin-top: 30px;
+    border: 1px #9c9c9c solid;
+    height: 750px;
+
+    flex-grow: 1;
+}
+
+#friends-current {
+    width: 70%;
+}
+
+#friends-current h2, #friends-recommended h2 {
+    text-align: center;
+}
+
+#friends-recommended {
+    width: 30%;
+}
+
+.friend-container {
+    display: flex; 
+    flex-wrap: wrap;
+
+    padding-left: 30px;
+    padding-right: 30px;
+   
+}
+
+.friend {
+    border: 1px #9c9c9c solid;
+
+    margin-bottom: 1%;
+    height: 100px;
+    flex-grow: 1;
+}
+
+.friend + .friend {
+    margin-left: 1%;
+}
+
+.friend-break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+#friends-recommended > .friend {
+    margin-left: 15px;
+    margin-right: 15px;
+}
