@@ -25,7 +25,6 @@ for (var i = 0; i < images.length; i++) {
     }
 }
 
-
 //close larger modal
 var clos = document.getElementsByClassName("closeBtn")[0];
 
@@ -40,5 +39,7 @@ function onAddFriend()
 
 function onRemoveFriend()
 {
-    alert("Successfully removed friend");
+    var element = event.srcElement;
+   
+    element.parentElement.remove();
 }
